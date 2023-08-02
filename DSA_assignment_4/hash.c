@@ -9,7 +9,7 @@ int hash1(int k, int M)
     return k % M;
 }
 
-// Second hash function: h2(k) = R - (k mod R)
+// Second hash function: h2(k) = R - (k mod R) 
 int hash2(int k, int R) 
 {
     return R - (k % R);
